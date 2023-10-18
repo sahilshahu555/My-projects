@@ -43,6 +43,10 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+  span{
+    font-weight: bold;
+    font-size: larger;
+  }
 }
 .icons{
   display: flex;
@@ -76,3 +80,18 @@ a {
     border-radius: 50%;
   }
 }
+
+
+// footer
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  span{
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+// footer End
