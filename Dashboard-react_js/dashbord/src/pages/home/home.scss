@@ -1,0 +1,24 @@
+.home{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-auto-rows: minmax(180px,auto);
+gap: 20px;
+}
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 100, 96);
+   
+}
+.box1{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.box4{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.box7{
+    grid-column: span 2;
+    grid-row: span 2;
+}

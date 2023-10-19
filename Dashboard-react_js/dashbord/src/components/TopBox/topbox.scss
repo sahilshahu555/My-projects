@@ -1,0 +1,21 @@
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.userTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+
