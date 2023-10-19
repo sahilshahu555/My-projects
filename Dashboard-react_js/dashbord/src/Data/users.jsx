@@ -22,6 +22,7 @@ export const userData=[
       "amount":"$290"
 
     },
+    
     {
       "id": 4,
       "name": "Patricia Lebsack",
@@ -63,4 +64,21 @@ export const userData=[
       "amount":"$160"
 
     },
+    {
+      "id": 9,
+      "name": "Dennis Schulist",
+      "email": "Karley@jasper.info",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcDykN3rkuBQ8VchgR5fSoSQ48cp6dd7bRmqyPGVsHGA&s",
+      "amount":"$340"
+
+    },
+    {
+      "id": 10,
+      "name": "Chelsey Dietrich",
+      "email": "Hettinger@annie.ca",
+      "image": "https://randomuser.me/api/portraits/men/91.jpg",
+      "amount":"$220"
+
+    },
+
   ]

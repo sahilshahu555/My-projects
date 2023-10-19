@@ -2,6 +2,7 @@ import React from 'react'
 import "./home.scss"
 import TopBox from '../../components/TopBox/TopBox'
 import ChartBox from '../../components/ChartBox/ChartBox'
+import BarChartBox from '../../components/BarChartBox/BarChartBox'
 const Home = () => {
   const box2Data={
     title:"Total Users",
@@ -40,8 +41,8 @@ const Home = () => {
       <div className="box box6"><ChartBox  title={box6Data.title} points={box6Data.points}
        icon={box6Data.icon} per={box6Data.per} /></div>
       <div className="box box7">box7</div>
-      <div className="box box8">box8</div>
-      <div className="box box9">box9</div>
+      <div className="box box8"><BarChartBox color={"lightgreen"} title={"Total Visit"}/></div>
+      <div className="box box9"><BarChartBox color={"pink"} title={"Total Profit"}/></div>
     </div>
   )
 }
