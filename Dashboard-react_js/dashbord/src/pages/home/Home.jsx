@@ -3,6 +3,8 @@ import "./home.scss"
 import TopBox from '../../components/TopBox/TopBox'
 import ChartBox from '../../components/ChartBox/ChartBox'
 import BarChartBox from '../../components/BarChartBox/BarChartBox'
+import PieChartBox from '../../components/PieChartBox/PieChartBox'
+import BigChartBox from '../../components/BigChartBox/BigChartBox'
 const Home = () => {
   const box2Data={
     title:"Total Users",
@@ -35,12 +37,12 @@ const Home = () => {
        icon={box2Data.icon} per={box2Data.per}/></div>
       <div className="box box3"><ChartBox title={box3Data.title} points={box3Data.points}
        icon={box3Data.icon} per={box3Data.per}/></div>
-      <div className="box box4"></div>
+      <div className="box box4"><PieChartBox/></div>
       <div className="box box5"><ChartBox   title={box5Data.title} points={box5Data.points}
        icon={box5Data.icon} per={box5Data.per}/></div>
       <div className="box box6"><ChartBox  title={box6Data.title} points={box6Data.points}
        icon={box6Data.icon} per={box6Data.per} /></div>
-      <div className="box box7">box7</div>
+      <div className="box box7"><BigChartBox/></div>
       <div className="box box8"><BarChartBox color={"lightgreen"} title={"Total Visit"}/></div>
       <div className="box box9"><BarChartBox color={"pink"} title={"Total Profit"}/></div>
     </div>
