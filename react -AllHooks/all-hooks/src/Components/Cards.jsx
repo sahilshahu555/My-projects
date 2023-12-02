@@ -1,5 +1,4 @@
 
-import {SingleCard} from "./SingleCard.jsx"
 
  export const Cards=()=>{
 
