@@ -9,6 +9,8 @@ import axios from"axios";
 export const SingleCard=()=>{
 
     const {id}=useParams();
+ 
+
     const [product,setProduct]= useState({})
     const [image,setImage]= useState([])
 
@@ -29,7 +31,7 @@ export const SingleCard=()=>{
         <div>
                 <h1>{product?.title}</h1>
                 <p>{product?.price}</p>
-                <img src={image[0]} style={{width:"400px",height:"400px"}}/>
+                 <img src={image[0]} style={{width:"400px",height:"400px"}}/>
                 <Link to={"/"}><button>Go to Home</button></Link>
         </div>
     )
