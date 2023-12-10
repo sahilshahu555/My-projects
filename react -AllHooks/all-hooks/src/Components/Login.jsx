@@ -1,6 +1,10 @@
-export const Login =()=>{
-
+ import {memo} from "react"
+ 
+ const Login =()=>{
+  console.log("Login")
     return(
-        <div>Login</div>
+        <h1>Login</h1>
     )
 }
+
+export default memo(Login);
