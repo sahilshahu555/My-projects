@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { AllRoutes } from './components/Routes/Allroutes'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './pages/Sidebar/Sidebar'
