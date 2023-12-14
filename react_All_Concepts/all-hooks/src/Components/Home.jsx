@@ -16,6 +16,7 @@ export const Home=()=>{
 
   //? 1 useState 
   // const [state,setState]=useState()
+  
 
   // ?2 useContextApi
   // const {state, setState}=useContext(MyContext)
@@ -28,6 +29,8 @@ export const Home=()=>{
   //   .catch((err)=>{console.log(err)})
   // },[])
 
+ 
+
   //? 3 useReducer
   // const [state ,dispatch] = useReducer(DataReducer,initialState);
   // useEffect(()=>{
@@ -36,14 +39,15 @@ export const Home=()=>{
   //   .then((res)=>{dispatch({type:"SUCCESS",payload:res.data.products})})
   //   .catch(()=>{dispatch({type:"ERROR"});})
    
-  // },[])
+  //  },[])
 
-  //? 3 REDUX data Fetching
+  //? 4 REDUX data Fetching
 
    const {data}=useSelector((store)=>store)
    const dispatch = useDispatch();
 
    useEffect(()=>{
+
      dispatch(fetchData())
     
     },[])
@@ -74,8 +78,8 @@ const changeName=()=>{
 
 
 // console.log(state)
-// console.log(data)
- console.log("HOME");
+console.log(data)
+//  console.log("HOME");
 
 
   return( 
@@ -92,6 +96,7 @@ const changeName=()=>{
         <button onClick={addCount}>Add</button>
         <button onClick={subCount}>Sub</button>
     </div>
+
     <div
     style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",margin:"50px"}}
     >   
@@ -104,7 +109,7 @@ const changeName=()=>{
       {/* {state.data?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))} */}
 
 
-       {/*  this is for useReducer data*/}
+       {/*  this is for REDUX data*/}
       {data.products?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))}
       
 

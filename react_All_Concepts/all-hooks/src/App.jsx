@@ -8,9 +8,14 @@ function App() {
 
   return (
    <div>
+    
    <Allroutes/>
+   
    </div>
   )
 }
+// const App =()=>{
+// return (<div>hello</div>)
+// }
 
 export default App
