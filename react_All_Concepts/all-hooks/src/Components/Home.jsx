@@ -19,15 +19,15 @@ export const Home=()=>{
   
 
   // ?2 useContextApi
-  // const {state, setState}=useContext(MyContext)
+  const {state, setState}=useContext(MyContext)
 
   //! Normal data fetching for useState and contextApi 
   
-  // useEffect(()=>{
-  //   axios.get("https://dummyjson.com/products")
-  //   .then((res)=>{setState(res.data.products)})
-  //   .catch((err)=>{console.log(err)})
-  // },[])
+  useEffect(()=>{
+    axios.get("https://dummyjson.com/products")
+    .then((res)=>{setState(res.data.products)})
+    .catch((err)=>{console.log(err)})
+  },[])
 
  
 
@@ -43,14 +43,14 @@ export const Home=()=>{
 
   //? 4 REDUX data Fetching
 
-   const {data}=useSelector((store)=>store)
-   const dispatch = useDispatch();
+  //  const {data}=useSelector((store)=>store)
+  //  const dispatch = useDispatch();
 
-   useEffect(()=>{
+  //  useEffect(()=>{
 
-     dispatch(fetchData())
+  //    dispatch(fetchData())
     
-    },[])
+  //   },[])
 // end of data fetching
 
 // AddCount Function for Counter
@@ -77,8 +77,8 @@ const changeName=()=>{
 
 
 
-// console.log(state)
-console.log(data)
+console.log(state)
+// console.log(data)
 //  console.log("HOME");
 
 
@@ -87,7 +87,7 @@ console.log(data)
     <h1>Home</h1>
   <Login/>
 
-    <div>
+    {/* <div>
       <h1>{count%2==0?name:"Shahu"}</h1>
       <button onClick={changeName}>Change Name</button>
    </div>
@@ -95,7 +95,7 @@ console.log(data)
         <h1>{count}</h1>
         <button onClick={addCount}>Add</button>
         <button onClick={subCount}>Sub</button>
-    </div>
+    </div> */}
 
     <div
     style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",margin:"50px"}}
@@ -103,14 +103,14 @@ console.log(data)
 
 
        {/* this is for useState and ContextApi data */}
-      {/* {state?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))} */}
+      {state?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))}
 
        {/*  this is for useReducer data*/}
       {/* {state.data?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))} */}
 
 
        {/*  this is for REDUX data*/}
-      {data.products?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))}
+      {/* {data.products?.map((elm,i)=>( <div key={i} > <Cards elm={elm}/> </div> ))} */}
       
 
 
