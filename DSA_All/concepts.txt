@@ -1,1 +1,3 @@
-1) Boxing concept in javascript.
+1) Boxing concept in javascript. in which variable is converted into object to perform operations as object methods
+2) if error occurred or throw word use so catch block will execute rather than try block
+3)
