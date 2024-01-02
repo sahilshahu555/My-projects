@@ -1,3 +1,7 @@
-1) DSA in Javascript from JsCafe Channel on youtube
-2) Javascript concept form Frontend Master Channel on youtube
-3)
+1) DSA in Javascript from JsCafe Channel on youtube.
+2) Javascript concept form Frontend Master Channel on youtube.
+3) interview happy YouTube channel for study of JavaScript.
+4) Sonny Sangha YouTube channel for Advance react js project.
+5) learn Typescript from free code camp YouTube channel 
+6) Javascript concept form Akshay Saini Channel on youtube
+7) React concept form Interview Happy Channel on youtube
