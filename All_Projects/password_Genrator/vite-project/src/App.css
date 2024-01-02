@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: skyblue;
+  color: rgb(58, 55, 55);
+}
+#inputBox{
+  width:500px;
+}
+
+
