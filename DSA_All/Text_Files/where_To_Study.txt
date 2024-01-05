@@ -5,3 +5,4 @@
 5) learn Typescript from free code camp YouTube channel 
 6) Javascript concept form Akshay Saini Channel on youtube
 7) React concept form Interview Happy Channel on youtube
+8) React concept form Drop X Out Channel on youtube
