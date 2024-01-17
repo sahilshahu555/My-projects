@@ -1,10 +1,9 @@
-
 // https://www.fruityvice.com/api/fruit/all
 
 [
   {
     "name": "Persimmon",
-    "id":1,
+    "id": 1,
     "family": "Ebenaceae",
     "order": "Rosales",
     "genus": "Diospyros",
@@ -15,14 +14,13 @@
       "carbohydrates": 18.0,
       "protein": 0.0
     },
-    "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
-    
+    "price": 20,
+    "nameHindi": "ख़ुरमा फल",
+    "image": "https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2019-10-14/product-packshot-Persimmon-558x600.jpg"
   },
   {
     "name": "Strawberry",
-    "id":2,
+    "id": 2,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Fragaria",
@@ -32,14 +30,14 @@
       "sugar": 5.4,
       "carbohydrates": 5.5,
       "protein": 0.8
-    },  
-    "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "स्ट्रॉबेरी",
+    "image": "https://i.pinimg.com/1200x/98/0e/ed/980eed87b3001cafaecc70cdc33703b2.jpg"
   },
   {
     "name": "Banana",
-    "id":3,
+    "id": 3,
     "family": "Musaceae",
     "order": "Zingiberales",
     "genus": "Musa",
@@ -50,13 +48,13 @@
       "carbohydrates": 22.0,
       "protein": 1.0
     },
-    "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    "price": 20,
+    "nameHindi": "केला",
+    "image": "https://thumbs.dreamstime.com/b/bananas-standing-13304183.jpg"
   },
   {
     "name": "Tomato",
-    "id":4,
+    "id": 4,
     "family": "Solanaceae",
     "order": "Solanales",
     "genus": "Solanum",
@@ -67,13 +65,13 @@
       "carbohydrates": 3.9,
       "protein": 0.9
     },
-    "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    "price": 20,
+    "nameHindi": "टमाटर",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRemk0pOj3avWb06RvabQarkPJ-BUaZPIT9UjLWrwM6xL8TyRbj"
   },
   {
     "name": "Pear",
-    "id":5,
+    "id": 5,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Pyrus",
@@ -83,13 +81,14 @@
       "sugar": 10.0,
       "carbohydrates": 15.0,
       "protein": 0.4
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "नाशपाती",
+    "image": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSFHYrQTax2c0Ywca8PQMYlcRJBokPdmI48XJwWT6HqSXyFg7OaGJoFvmrW8NLGAuq6b9fTjrB3_87S9BmJKSo"
   },
   {
     "name": "Durian",
-    "id":6,
+    "id": 6,
     "family": "Malvaceae",
     "order": "Malvales",
     "genus": "Durio",
@@ -99,13 +98,14 @@
       "sugar": 6.75,
       "carbohydrates": 27.1,
       "protein": 1.5
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "डूरियन",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd1-atKEOAU4XxIsBGcF-MCpe4vjHGc1WiQQ&usqp=CAU"
   },
   {
     "name": "Blackberry",
-    "id":7,
+    "id": 7,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Rubus",
@@ -115,13 +115,14 @@
       "sugar": 4.5,
       "carbohydrates": 9.0,
       "protein": 1.3
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "ब्लैकबेरी",
+    "image": "https://www.shutterstock.com/image-photo/blackberry-fruit-isolated-260nw-249262228.jpg"
   },
   {
     "name": "Lingonberry",
-    "id":8,
+    "id": 8,
     "family": "Ericaceae",
     "order": "Ericales",
     "genus": "Vaccinium",
@@ -131,13 +132,14 @@
       "sugar": 5.74,
       "carbohydrates": 11.3,
       "protein": 0.75
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "लिंगोनबेरी",
+    "image": "https://st2.depositphotos.com/1020070/43938/v/1600/depositphotos_439381730-stock-illustration-lingonberry-berries-fruits-food-farm.jpg"
   },
   {
     "name": "Kiwi",
-    "id":9,
+    "id": 9,
     "family": "Actinidiaceae",
     "order": "Struthioniformes",
     "genus": "Apteryx",
@@ -147,13 +149,14 @@
       "sugar": 9.0,
       "carbohydrates": 15.0,
       "protein": 1.1
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "कीवी",
+    "image": "https://img.freepik.com/premium-photo/half-kiwi-fruit-isolated-white-background_253984-4415.jpg"
   },
   {
     "name": "Lychee",
-    "id":10,
+    "id": 10,
     "family": "Sapindaceae",
     "order": "Sapindales",
     "genus": "Litchi",
@@ -163,13 +166,15 @@
       "sugar": 15.0,
       "carbohydrates": 17.0,
       "protein": 0.8
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "लीची",
+    "image": "https://i.pinimg.com/1200x/a3/9d/1a/a39d1a38e603611024b58861c6d72473.jpg"
   },
+  {"1":1},
   {
     "name": "Pineapple",
-    "id":11,
+    "id": 11,
     "family": "Bromeliaceae",
     "order": "Poales",
     "genus": "Ananas",
@@ -179,13 +184,14 @@
       "sugar": 9.85,
       "carbohydrates": 13.12,
       "protein": 0.54
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Fig",
-    "id":12,
+    "id": 12,
     "family": "Moraceae",
     "order": "Rosales",
     "genus": "Ficus",
@@ -195,13 +201,14 @@
       "sugar": 16.0,
       "carbohydrates": 19.0,
       "protein": 0.8
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Gooseberry",
-    "id":13,
+    "id": 13,
     "family": "Grossulariaceae",
     "order": "Saxifragales",
     "genus": "Ribes",
@@ -211,13 +218,14 @@
       "sugar": 0.0,
       "carbohydrates": 10.0,
       "protein": 0.9
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Passionfruit",
-    "id":14,
+    "id": 14,
     "family": "Passifloraceae",
     "order": "Malpighiales",
     "genus": "Passiflora",
@@ -227,13 +235,14 @@
       "sugar": 11.2,
       "carbohydrates": 22.4,
       "protein": 2.2
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Plum",
-    "id":15,
+    "id": 15,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Prunus",
@@ -243,13 +252,14 @@
       "sugar": 9.92,
       "carbohydrates": 11.4,
       "protein": 0.7
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Orange",
-    "id":16,
+    "id": 16,
     "family": "Rutaceae",
     "order": "Sapindales",
     "genus": "Citrus",
@@ -259,13 +269,14 @@
       "sugar": 8.2,
       "carbohydrates": 8.3,
       "protein": 1.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "GreenApple",
-    "id":17,
+    "id": 17,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Malus",
@@ -275,13 +286,14 @@
       "sugar": 6.4,
       "carbohydrates": 3.1,
       "protein": 0.4
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Raspberry",
-    "id":18,
+    "id": 18,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Rubus",
@@ -291,13 +303,14 @@
       "sugar": 4.4,
       "carbohydrates": 12.0,
       "protein": 1.2
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Watermelon",
-    "id":19,
+    "id": 19,
     "family": "Cucurbitaceae",
     "order": "Cucurbitales",
     "genus": "Citrullus",
@@ -307,13 +320,14 @@
       "sugar": 6.0,
       "carbohydrates": 8.0,
       "protein": 0.6
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Lemon",
-    "id":20,
+    "id": 20,
     "family": "Rutaceae",
     "order": "Sapindales",
     "genus": "Citrus",
@@ -323,13 +337,14 @@
       "sugar": 2.5,
       "carbohydrates": 9.0,
       "protein": 1.1
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Mango",
-    "id":21,
+    "id": 21,
     "family": "Anacardiaceae",
     "order": "Sapindales",
     "genus": "Mangifera",
@@ -339,13 +354,14 @@
       "sugar": 13.7,
       "carbohydrates": 15.0,
       "protein": 0.82
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Blueberry",
-    "id":22,
+    "id": 22,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Fragaria",
@@ -355,13 +371,14 @@
       "sugar": 5.4,
       "carbohydrates": 5.5,
       "protein": 0.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Apple",
-    "id":23,
+    "id": 23,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Malus",
@@ -371,13 +388,14 @@
       "sugar": 10.3,
       "carbohydrates": 11.4,
       "protein": 0.3
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Guava",
-    "id":24,
+    "id": 24,
     "family": "Myrtaceae",
     "order": "Myrtales",
     "genus": "Psidium",
@@ -387,13 +405,14 @@
       "sugar": 9.0,
       "carbohydrates": 14.0,
       "protein": 2.6
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Apricot",
-    "id":25,
+    "id": 25,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Prunus",
@@ -403,13 +422,14 @@
       "sugar": 3.2,
       "carbohydrates": 3.9,
       "protein": 0.5
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Papaya",
-    "id":26,
+    "id": 26,
     "family": "Caricaceae",
     "order": "Caricacea",
     "genus": "Carica",
@@ -419,13 +439,14 @@
       "sugar": 1.0,
       "carbohydrates": 11.0,
       "protein": 0.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Melon",
-    "id":27,
+    "id": 27,
     "family": "Cucurbitaceae",
     "order": "Cucurbitaceae",
     "genus": "Cucumis",
@@ -435,13 +456,14 @@
       "sugar": 8.0,
       "carbohydrates": 8.0,
       "protein": 0.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Tangerine",
-    "id":28,
+    "id": 28,
     "family": "Rutaceae",
     "order": "Sapindales",
     "genus": "Citrus",
@@ -451,13 +473,14 @@
       "sugar": 9.1,
       "carbohydrates": 8.3,
       "protein": 0.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Pitahaya",
-    "id":29,
+    "id": 29,
     "family": "Cactaceae",
     "order": "Caryophyllales",
     "genus": "Cactaceae",
@@ -467,13 +490,14 @@
       "sugar": 3.0,
       "carbohydrates": 7.0,
       "protein": 1.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Lime",
-    "id":30,
+    "id": 30,
     "family": "Rutaceae",
     "order": "Sapindales",
     "genus": "Citrus",
@@ -483,13 +507,14 @@
       "sugar": 1.7,
       "carbohydrates": 8.4,
       "protein": 0.3
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Pomegranate",
-    "id":31,
+    "id": 31,
     "family": "Lythraceae",
     "order": "Myrtales",
     "genus": "Punica",
@@ -499,13 +524,14 @@
       "sugar": 13.7,
       "carbohydrates": 18.7,
       "protein": 1.7
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Dragonfruit",
-    "id":32,
+    "id": 32,
     "family": "Cactaceae",
     "order": "Caryophyllales",
     "genus": "Selenicereus",
@@ -515,13 +541,14 @@
       "sugar": 8.0,
       "carbohydrates": 9.0,
       "protein": 9.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Grape",
-    "id":33,
+    "id": 33,
     "family": "Vitaceae",
     "order": "Vitales",
     "genus": "Vitis",
@@ -531,13 +558,14 @@
       "sugar": 16.0,
       "carbohydrates": 18.1,
       "protein": 0.72
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Morus",
-    "id":34,
+    "id": 34,
     "family": "Moraceae",
     "order": "Rosales",
     "genus": "Morus",
@@ -547,13 +575,14 @@
       "sugar": 8.1,
       "carbohydrates": 9.8,
       "protein": 1.44
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Feijoa",
-    "id":35,
+    "id": 35,
     "family": "Myrtaceae",
     "order": "Myrtoideae",
     "genus": "Sellowiana",
@@ -563,13 +592,14 @@
       "sugar": 3.0,
       "carbohydrates": 8.0,
       "protein": 0.6
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Avocado",
-    "id":36,
+    "id": 36,
     "family": "Lauraceae",
     "order": "Laurales",
     "genus": "Persea",
@@ -579,13 +609,14 @@
       "sugar": 0.66,
       "carbohydrates": 8.53,
       "protein": 2.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Kiwifruit",
-    "id":37,
+    "id": 37,
     "family": "Actinidiaceae",
     "order": "Ericales",
     "genus": "Actinidia",
@@ -595,13 +626,14 @@
       "sugar": 8.9,
       "carbohydrates": 14.6,
       "protein": 1.14
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Cranberry",
-    "id":38,
+    "id": 38,
     "family": "Ericaceae",
     "order": "Ericales",
     "genus": "Vaccinium",
@@ -611,13 +643,14 @@
       "sugar": 4.0,
       "carbohydrates": 12.2,
       "protein": 0.4
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Cherry",
-    "id":39,
+    "id": 39,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Prunus",
@@ -627,13 +660,14 @@
       "sugar": 8.0,
       "carbohydrates": 12.0,
       "protein": 1.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Peach",
-    "id":40,
+    "id": 40,
     "family": "Rosaceae",
     "order": "Rosales",
     "genus": "Prunus",
@@ -643,13 +677,14 @@
       "sugar": 8.4,
       "carbohydrates": 9.5,
       "protein": 0.9
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Jackfruit",
-    "id":41,
+    "id": 41,
     "family": "Moraceae",
     "order": "Rosales",
     "genus": "Artocarpus",
@@ -659,13 +694,14 @@
       "sugar": 19.1,
       "carbohydrates": 23.2,
       "protein": 1.72
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Horned Melon",
-    "id":42,
+    "id": 42,
     "family": "Cucurbitaceae",
     "order": "Cucurbitales",
     "genus": "Cucumis",
@@ -675,13 +711,14 @@
       "sugar": 0.5,
       "carbohydrates": 7.56,
       "protein": 1.78
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Hazelnut",
-    "id":43,
+    "id": 43,
     "family": "Betulaceae",
     "order": "Fagales",
     "genus": "Corylus",
@@ -691,13 +728,14 @@
       "sugar": 4.3,
       "carbohydrates": 17.0,
       "protein": 15.0
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Pomelo",
-    "id":44,
+    "id": 44,
     "family": "Rutaceae",
     "order": "Sapindales",
     "genus": "Citrus",
@@ -707,13 +745,14 @@
       "sugar": 8.5,
       "carbohydrates": 9.67,
       "protein": 0.82
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   },
   {
     "name": "Mangosteen",
-    "id":45,
+    "id": 45,
     "family": "Clusiaceae",
     "order": "Malpighiales",
     "genus": "Garcinia",
@@ -723,8 +762,9 @@
       "sugar": 16.11,
       "carbohydrates": 17.91,
       "protein": 0.41
-    }, "price":20,
-    "nameHindi":"Telu",
-    "image":"https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
+    },
+    "price": 20,
+    "nameHindi": "Telu",
+    "image": "https://www.stylecraze.com/wp-content/uploads/2019/12/Persimmon-Tendu-Fruit-Benefits-and-Side-Effects-in-Hindi.jpg"
   }
 ]
