@@ -1,7 +1,6 @@
 // https://www.fruityvice.com/api/fruit/all
 
- 
-   [
+ export let fruits = [
   {
     "name": "Persimmon",
     "id": 1,
@@ -240,7 +239,7 @@
     },
     "price": 20,
     "nameHindi": "कृष्णकमल फल",
-    "image": "https://fruitprocess-media.irematch.com/images/1559614186179passion%20fruit.jpg"
+    "image": "https://www.liveeatlearn.com/wp-content/uploads/2015/08/passion-fruit-photo-2.jpg"
   },
   {
     "name": "Plum",
@@ -529,7 +528,7 @@
     },
     "price": 20,
     "nameHindi": "अनार",
-    "image": "https://www.commodityonline.com/blogs/pomegranate_1683269798.png"
+    "image": "https://www.themediterraneandish.com/wp-content/uploads/2023/10/How-to-Cut-Pomegranate-WEB-1-500x500.jpg"
   },
   {
     "name": "Dragonfruit",

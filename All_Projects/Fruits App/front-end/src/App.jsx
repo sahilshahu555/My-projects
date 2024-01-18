@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="bg-yellow-300">
       <div className='flex justify-center items-center flex-col'>
         <Navbar/>
         <AllRoutes/>
