@@ -6,9 +6,16 @@ function App() {
 
 
   return (
-    <div className="bg-yellow-300">
-      <div className='flex justify-center items-center flex-col'>
+    <div className="">
+      <div className=''>
+      <div className="relative mb-20">
+        <div className=" fixed top-0 left-0 right-0 ">
         <Navbar/>
+        </div></div>
+        <h1
+        className="text-center text-gray-500 font-bold text-xl bg-white w-48 m-auto py-1 px-2 rounded-tr-xl rounded-bl-xl mb-10"
+        >Sahil Fresh Fruits</h1>
+      
         <AllRoutes/>
 
         </div>

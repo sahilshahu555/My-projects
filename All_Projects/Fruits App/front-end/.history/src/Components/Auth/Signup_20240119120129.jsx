@@ -1,4 +1,4 @@
-import {useState}from 'react'
+import React ,{useState}from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
@@ -17,24 +17,24 @@ const Signup = () => {
     }
     const handleSubmit=(e)=>{
         e.preventDefault()
-        // const newUser={
-        //     name:user.name,
-        //     email:user.email,
-        //     password:user.password,
-        //     age:Number(user.age),
-        //     phone_number:Number(user.phone_number)
-        // }
+        const newUser={
+            name:user.name,
+            email:user.email,
+            password:user.password,
+            age:Number(user.age),
+            phone_number:Number(user.phone_number)
+        }
 
         if(user.email=== "" || user.name=== "" ){
             alert("Invalid Credentials")
             return;
         }
         
-        setFlag(true)
+        
     }
 
     console.log(flag)
-    console.log(user)
+    console.log()
 
     if(flag){navigate("/login")}
   return (
@@ -46,9 +46,9 @@ const Signup = () => {
             className='text-center'
       >
       <form onSubmit={handleSubmit}
-      className='text-center border w-80 flex justify-center items-center flex-col p-5 mt-5 gap-2 bg-slate-300 rounded-2xl shadow-lg shadow-violet-400/100 ...'
+      className='text-center border w-80 flex justify-center items-center flex-col p-5 m-10 gap-2 bg-slate-300 rounded-2xl shadow-lg shadow-violet-400/100 ...'
       >
-        <h1 className='text-white bg-gradient-to-r from-red-300 to-orange-300  py-2 px-14 m-2 rounded' >SignUp Form </h1>
+        <h1 className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-14 m-2 rounded' >SignUp Form </h1>
        <input type="text" name="name" value={user.name} onChange={handleChange} placeholder='Enter Your Name' className='text-center p-1'/>
 
        <input type="text" name="email" value={user.email} onChange={handleChange} placeholder='Enter Your Email' className='text-center p-1'/>
