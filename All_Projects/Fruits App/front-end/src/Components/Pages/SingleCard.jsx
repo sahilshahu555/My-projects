@@ -31,7 +31,12 @@ if(flag){navigate("/")}
 ):( <div className='flex sm:flex-col lg:flex-row flex-wrap justify-around items-center gap-8 p-5  border rounded-xl  
  mx-20 my-6 shadow-lg shadow-violet-400/100 ... bg-slate-300 text-black
 '>
-      <div> <img src={newMovie[0]?.Poster} alt="" className='w-72 rounded-xl shadow-lg shadow-violet-400/100 ...' /></div>
+      <div>
+        
+         <img src={newMovie[0]?.Poster} alt="" className='w-72 rounded-xl shadow-lg shadow-violet-400/100 ...' />
+         
+         
+         </div>
       <div className='flex flex-col justify-around items-center gap-3 bg-black text-white p-2 rounded-xl shadow-lg shadow-violet-400/100 ...'  > 
       <h1 className='text-white  m-auto bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-20 mt-2  rounded'>{newMovie[0]?.Title}</h1>
       <div className='flex flex-col justify-around items-start gap-10 bg-black text-white p-2 rounded-xl'>
