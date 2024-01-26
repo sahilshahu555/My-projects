@@ -37,26 +37,37 @@ const AddFruit = () => {
      style={{display:"flex",justifyContent:"center",
              alignItems:"center", width:"100%"
             }} 
-            className='text-center  '
+            className='text-center bg-#3d3a3a relative '
       >
-      <form onSubmit={handleSubmit}
-      className='text-center  w-80 flex justify-center items-center flex-col p-5 m-5 gap-3 bg-slate-300 rounded-2xl shadow-lg shadow-violet-400/100 ...'
-      >
+        <div className='absolute-inset-0.5  opacity-75  bg-gradient-to-r from-green-200 via-yellow-300 to-pink-300 w-90% rounded-2xl p-0.5 mb-10 
+        
+        '>
+          <form onSubmit={handleSubmit}
+          className=' text-center  w-80 flex justify-center items-center flex-col p-5 gap-3 bg-black rounded-2xl 
+         l
+          
+          
+          '
+          // gradient background
+          // 
+          >
 
-       <h1 className='text-white bg-gradient-to-r from-red-300 to-orange-300  py-2 px-14 m-2 rounded' > Movie Details </h1> 
+          <h1 className='text-white bg-gradient-to-r from-red-300 to-orange-300  py-2 px-14 m-2 rounded' > Movie Details </h1> 
 
-       <input type="text" name="Title" value={user.Title} onChange={handleChange} placeholder='Enter Movie Title' className='text-center p-1'/>
+          <input type="text" name="Title" value={user.Title} onChange={handleChange} placeholder='Enter Movie Title' className='text-center p-1'/>
 
-       <input type="text" name="Poster" value={user.Poster} onChange={handleChange} placeholder='Enter Movie Image' className='text-center p-1'/>
+          <input type="text" name="Poster" value={user.Poster} onChange={handleChange} placeholder='Enter Movie Image' className='text-center p-1'/>
 
-       <input type="text" name="Year" value={user.Year} onChange={handleChange} placeholder='Enter Movie Year' className='text-center p-1'/>
-       
-       <input type="number" name="id" value={user.id} onChange={handleChange} placeholder='Enter Movie ID' className='text-center p-1'/>
+          <input type="text" name="Year" value={user.Year} onChange={handleChange} placeholder='Enter Movie Year' className='text-center p-1'/>
+          
+          <input type="number" name="id" value={user.id} onChange={handleChange} placeholder='Enter Movie ID' className='text-center p-1'/>
 
 
-       <input type="submit" className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500  py-1 px-5 m-2 rounded-xl hover:text-black cursor-pointer ...   shadow-lg shadow-white ... ' />
-       
-      </form>
+          <input type="submit" className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500  py-1 px-5 m-2 rounded-xl hover:text-black cursor-pointer ...   shadow-lg shadow-white ... ' />
+          
+          </form>
+       </div>
+
     </div>
   )
 }

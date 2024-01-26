@@ -1,0 +1,9 @@
+.app{
+  margin: 0;
+  padding: 0;
+}
+
+.link{
+  @apply duration-300 hover:bg-red-300  
+  hover:font-bold p-2 lg:py-1 lg:px-3 rounded-xl hover:text-slate-500
+}
