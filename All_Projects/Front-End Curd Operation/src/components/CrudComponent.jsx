@@ -25,7 +25,7 @@ const CrudComponent = () => {
       setNewItem({ id: null, name: '' });
     } catch (error) {
       console.error('Error adding item:', error);
-      
+
     }
   };
 
@@ -57,7 +57,7 @@ const CrudComponent = () => {
 
   return (
     <div>
-      <h1>JSON File CRUD Operations</h1>
+      <h2>JSON File CRUD Operations</h2>
       
       <ul className='flex flex-wrap gap-10 m-20'>
         {data.map(item => (
@@ -75,7 +75,7 @@ const CrudComponent = () => {
       </ul>
 
       <div>
-        <h1>Add New Items</h1>
+        <h2>New Items</h2>
         <input
           type="text"
           placeholder="New Item Name"
