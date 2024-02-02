@@ -63,13 +63,13 @@ const AddEmployee = () => {
     }
 
     return (
-        <div className=' container mx-auto flex justify-center items-center h-screen'>
+        <div className=' container bg-gray-400 w-full m-auto flex justify-center items-center h-screen'>
             {/* Main  */}
-            <div className="form border shadow-md border-gray-400 rounded-xl py-6 px-9  ">
+            <div className="form border shadow-md border-white  bg-blue-200 rounded-xl py-6 px-9  ">
                 {/* Top  */}
                 <div className="top">
                     {/* Top-Child  */}
-                    <div className="flex gap-[40px] mb-5 items-center">
+                    <div className="flex gap-[40px] mb-5 items-center ">
                         {/* Link  */}
                         <Link href='/'>
                             {/* Svg Icon  */}
@@ -79,17 +79,17 @@ const AddEmployee = () => {
                         </Link>
 
                         {/* Text  */}
-                        <h1 className='text-2xl font-semibold'>
+                        <h1 className='text-xl -ml-5 traking-wider font-semibold'>
                             Add Employee Detail
                         </h1>
                     </div>
                 </div>
 
                 {/* Bottom  */}
-                <div className="bottom">
+                <div className="bottom w-52 lg:w-full">
 
                     {/* Employee Name Input  */}
-                    <div className="">
+                    <div className=" ">
                         <input
                             type="text"
                             name='employeeName'
@@ -99,7 +99,7 @@ const AddEmployee = () => {
                                 ...employee,
                                 name: e.target.value
                             })}
-                            className='border border-gray-400 hover:border-gray-700 w-96 px-1.5 py-1.5 rounded-md outline-none mb-5 placeholder-gray-400'
+                            className='border border-gray-400 hover:border-gray-700 md:w-96 px-1.5 py-1.5 rounded-md outline-none mb-5 placeholder-gray-400'
                         />
                     </div>
 
@@ -114,7 +114,7 @@ const AddEmployee = () => {
                                 ...employee,
                                 email: e.target.value
                             })}
-                            className='border border-gray-400 hover:border-gray-700 w-96 px-1.5 py-1.5 rounded-md outline-none mb-5 placeholder-gray-400'
+                            className='border border-gray-400 hover:border-gray-700 md:w-96 px-1.5 py-1.5 rounded-md outline-none mb-5 placeholder-gray-400'
                         />
                     </div>
 
@@ -129,7 +129,7 @@ const AddEmployee = () => {
                                 ...employee,
                                 address: e.target.value
                             })}
-                            className='border border-gray-400 hover:border-gray-700 w-96 px-1.5 py-1.5 rounded-md outline-none mb-5 placeholder-gray-400'
+                            className='border border-gray-400 hover:border-gray-700 md:w-96 px-1.5 py-1.5 rounded-md outline-none mb-5 placeholder-gray-400'
                         />
                     </div>
 
@@ -144,14 +144,14 @@ const AddEmployee = () => {
                                 ...employee,
                                 salary: e.target.value
                             })}
-                            className='border border-gray-400 hover:border-gray-700 w-96 px-1.5 py-1.5 rounded-md outline-none mb-8 placeholder-gray-400'
+                            className='border border-gray-400 hover:border-gray-700 md:w-96 px-1.5 py-1.5 rounded-md outline-none mb-8 placeholder-gray-400'
                         />
                     </div>
 
                     {/* Add Button  */}
                     <div>
                         <button onClick={addEmployeeDetail}
-                            className=' bg-gray-100 hover:bg-gray-200 w-full py-1.5 border border-gray-400 rounded-md font-medium mb-5'>
+                            className=' bg-red-400 hover:bg-red-500  w-full py-1.5 border border-gray-400 rounded-md font-medium mb-5'>
                             Add Detail
                         </button>
                     </div>

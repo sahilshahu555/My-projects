@@ -50,17 +50,17 @@ const EmployeeList = () => {
     }, []);
     // console.log(employee)
     return (
-        <div className=' flex justify-center items-center h-screen'>
+        <div className=' flex     m-auto lg:w-full  justify-center items-center h-screen'>
             {/* Main  */}
             <div className="flex flex-col">
                 {/* Main-Child 1  */}
-                <div className="-m-1.5 overflow-x-auto">
+                <div className="-m-1.5 ">
                     {/* Main-Child 2  */}
-                    <div className="p-1.5 min-w-full inline-block align-middle">
+                    <div className="p-1.5   ">
                         {/* Main-Child 3  */}
-                        <div className="border rounded-lg shadow overflow-hidden ">
+                        <div className="border rounded-lg shadow  ">
                             {/* Top [Svg Icon And Text]  */}
-                            <div className="p-2 bg-gray-50 border-b flex gap-2 items-center">
+                            <div className="p-2 flex-col bg-gray-50 border-b flex gap-2 items-center">
                                 {/* link */}
                                 <Link href='/'>
                                     {/* svg icon  */}
@@ -76,14 +76,14 @@ const EmployeeList = () => {
                             </div>
 
                             {/* Table  */}
-                            <table className=" w-full divide-y divide-gray-200 ">
+                            <table className="  lg:w-full bg-red-300 divide-y divide-gray-200 ">
                                 {/* Thead  */}
-                                <thead className="bg-gray-50 ">
+                                <thead className="bg-gray-50 w-36 ">
                                     <tr>
                                         {/* S.No. */}
                                         <th
                                             scope="col"
-                                            className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase "
+                                            className="px-1  py-3 text-left text-xs font-medium text-gray-500 uppercase "
                                         >
                                             S.No.
                                         </th>
@@ -141,8 +141,8 @@ const EmployeeList = () => {
                                     const { _id, name, email, address, salary } = item
                                     return (
                                         // tbody 
-                                        <tbody key={index} className="divide-y divide-gray-200">
-                                            <tr>
+                                        <tbody key={index} className="divide-y divide-gray-200 w-36 ">
+                                            <tr className='hover:bg-blue-200'>
                                                 {/* S.No  */}
                                                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 ">
                                                     {index + 1}.
