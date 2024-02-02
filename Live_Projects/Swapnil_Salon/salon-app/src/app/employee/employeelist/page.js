@@ -50,7 +50,7 @@ const EmployeeList = () => {
     }, []);
     // console.log(employee)
     return (
-        <div className=' flex     m-auto lg:w-full  justify-center items-center h-screen'>
+        <div className=' flex     m-auto lg:w-full  justify-center items-center '>
             {/* Main  */}
             <div className="flex flex-col">
                 {/* Main-Child 1  */}
