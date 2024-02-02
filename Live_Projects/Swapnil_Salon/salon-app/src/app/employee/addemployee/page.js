@@ -23,7 +23,7 @@ const AddEmployee = () => {
         try {
            
 
-            const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/employee`, {
+            const res = await fetch(`/api/employee`, {
                 method: 'POST',
                 headers: {
                     "content-type": "application/json"

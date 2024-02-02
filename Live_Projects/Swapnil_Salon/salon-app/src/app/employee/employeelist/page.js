@@ -10,7 +10,7 @@ const EmployeeList = () => {
     // Get Employee List Function 
     const getEmployeeList = async () => {
         // Fetch data from api 
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/employee`)
+        const res = await fetch(`/api/employee`)
 
         // Create data
         const data = await res.json();
@@ -21,7 +21,7 @@ const EmployeeList = () => {
 
     // Delete Employee Function 
     const deleteEmployee = async (_id) => {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/employee/${_id}`, {
+        const res = await fetch(`/api/employee/${_id}`, {
             method: 'DELETE'
         })
 
