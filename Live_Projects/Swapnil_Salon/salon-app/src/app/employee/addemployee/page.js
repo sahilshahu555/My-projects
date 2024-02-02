@@ -86,7 +86,7 @@ const AddEmployee = () => {
                 </div>
 
                 {/* Bottom  */}
-                <div className="bottom w-52 lg:w-full">
+                <div className="bottom m-5 lg:w-full">
 
                     {/* Employee Name Input  */}
                     <div className=" ">

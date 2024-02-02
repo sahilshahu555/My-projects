@@ -4,7 +4,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className=' flex flex-col  justify-center items-center h-screen '>
+    <div className=' flex flex-col  justify-center items-center  '>
       {/* main  */}
       <h1 className='m-10 bg-blue-300 p-5 font-bold rounded animate-bounce '>Employee Details App</h1>
       <div className="  p-10 font-semibold flex  gap-5 rounded-xl">
