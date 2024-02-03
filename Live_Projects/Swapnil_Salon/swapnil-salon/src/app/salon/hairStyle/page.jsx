@@ -2,7 +2,7 @@
 
 const HairStyle = () => {
   return (
-    <div>
+    <div className="mt-44">
       Style Page
     </div>
   )
