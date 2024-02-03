@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import{GlobalContextProvider} from "./context/store"
+import { GlobalContextProvider } from "./context/store";
 import Navbar from "@/components/Navbar";
-import Footer from './../components/Footer';
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,14 +14,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} `} suppressHydrationWarning={true} >
+      <body className={`${inter.className} m-0 p-0 box-border`} suppressHydrationWarning={true}>
         <GlobalContextProvider>
-          <div className=" ">
-            <div>
-              <Navbar/>
+          <div className=" font-serif">
+            <div className=" relative">
+              <div className="fixed top-0 left-0 right-0 p-0 m-0">
+                <Navbar />
+              </div>
             </div>
-           {children}
-          <Footer/>
+            {children}
+            <Footer />
           </div>
         </GlobalContextProvider>
       </body>

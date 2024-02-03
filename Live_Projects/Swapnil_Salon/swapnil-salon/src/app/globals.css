@@ -21,15 +21,20 @@ body{
  padding: 0;
  box-sizing: border-box;
 }
-
-.gradientText{
+.gradientText1{
   @apply bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent 
+}
+.gradientText2{
+  @apply bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text  text-transparent 
+}
+.gradientText{
+  @apply bg-gradient-to-r from-gray-200 via-gray-400 to-gray-600 bg-clip-text text-transparent 
 }
 
 .link1{
-  @apply  text-center duration-300 hover:bg-red-400  px-1 rounded hover:text-black w-24 text-slate-300 font-medium  
+  @apply  text-center duration-300 hover:bg-red-400  px-1 rounded hover:text-black w-24 text-white font-semibold  
 }
 
 .link{
-  @apply bg-white text-black text-center duration-300 hover:bg-red-300 hover:font-medium  px-1 rounded hover:text-white w-24
+  @apply  text-center duration-300 hover:bg-red-500 hover:font-medium  px-1 rounded hover:text-white w-24 border-b
 }
