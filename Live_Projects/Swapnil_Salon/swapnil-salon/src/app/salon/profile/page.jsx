@@ -3,7 +3,7 @@
 const Profile = () => {
   return (
     <div>
-      Profile Page
+      Login Page
     </div>
   )
 }

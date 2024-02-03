@@ -23,7 +23,7 @@ console.log("end")
 
 console.log(data,flage)
   return (
-    <div className="flex justify-center items-center gap-10 h-screen">
+    <div className="flex justify-center items-center gap-10 ">
       <div>Home Component</div>
       
     </div>
