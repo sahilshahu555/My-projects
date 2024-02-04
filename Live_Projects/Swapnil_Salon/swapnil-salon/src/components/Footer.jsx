@@ -6,7 +6,7 @@ const Footer = () => {
       <h1 className="text-2xl  font-bold gradientText2">The SWAPNIL SALON</h1>
     
       <div className="flex flex-wrap md:flex-row justify-around items-center gap-10 p-5">
-          <div className="text-start text-gray-700 hidden md:block gradientText1">
+          <div className="text-start text-white hidden md:block ">
             <h1 className="text-center m-2">QUICK LINKS</h1>
             <p>About US</p>
             <p>Our Styles</p>
