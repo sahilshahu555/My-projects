@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="text-center p-5 bg-gray-900 font-sans">
+    <div className="text-center p-5 bg-gray-800 font-sans">
       <h1 className="text-2xl  font-bold gradientText2">The SWAPNIL SALON</h1>
     
       <div className="flex flex-wrap md:flex-row justify-around items-center gap-10 p-5">
@@ -14,7 +14,7 @@ const Footer = () => {
             <p>Login Page</p>
 
           </div>
-          <div className="text-start text-gray-700 hidden md:block gradientText1">
+          <div className="text-start text-white hidden md:block ">
             <h1 className="text-center m-2">OUR SERVICES</h1>
             <p>Hair Cutting</p>
             <p>Shaving & Design</p>
@@ -22,7 +22,7 @@ const Footer = () => {
             <p>Body Massages</p>
 
           </div>
-          <div className="text-start text-gray-700 gradientText1">
+          <div className="text-start text-white">
             <h1 className="text-center m-2">CONTACT US</h1>
             <p>Address : Khamla Square</p>
             <p>Mobile  : 1234567890</p>
@@ -30,7 +30,7 @@ const Footer = () => {
             <p>Email : support@gmail.com</p>
 
           </div>
-          <p className="w-full gradientText1 text-sm ">All copy rights reserved by @ Swapnil Salon, 2024.</p>
+          <p className="w-full text-white text-sm ">All copy rights reserved by @ Swapnil Salon, 2024.</p>
       </div>
     </div>
   )

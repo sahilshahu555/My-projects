@@ -42,12 +42,12 @@ const PricingPlane = () => {
       ]
 
   return (
-    <div className="PricingPlane-Home  text-white flex flex-col  px-6 md:px-16   justify-around items-center     gap-5 md:gap-10  mb-14  ">
-      <h1 className="text-2xl gradientText1 font-bold mt-10 tracking-wider">OUR PRICING </h1>
+    <div className="PricingPlane-Home  text-white flex flex-col  px-6 md:px-10   justify-around items-center     gap-5 md:gap-10    ">
+      <h1 className="text-2xl gradientText1 font-bold  tracking-wider">OUR PRICING </h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 rounded-xl bg-slate-200 text-black p-8 md:p-20 w-full md:w-11/12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 rounded-xl bg-white text-black p-8 md:p-10 w-full md:w-11/12">
         {data.map((elm)=>
-        <div className="flex justify-around items-center  gap-2 ring-1 ring-red-300 bg-white rounded-xl p-2">
+        <div className="flex justify-around items-center  gap-2 ring-1 ring-red-300 bg-slate-200 rounded-xl p-2">
         <Image src={elm.icon} width={50} height={50} className="rounded-full"
         />
         <h1 className="gradientText1 text-xs w-32 md:w-56 text-center md:text-lg font-semibold">{elm.name}</h1>
