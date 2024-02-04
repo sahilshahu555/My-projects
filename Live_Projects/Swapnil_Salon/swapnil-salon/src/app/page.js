@@ -3,6 +3,8 @@ import Image from 'next/image'
 import {useEffect} from "react"
 import { useGlobalContext } from "./context/store";
 import Main from "@/components/home/Main"
+import ServiceHome from '@/components/home/ServiceHome';
+import PricingPlane from '@/components/home/PricingPlane';
 export default function Home() {
 
   const {data,setData,user,setUser,flage,setFlage} =useGlobalContext();
@@ -16,14 +18,26 @@ useEffect(()=>{
 
   return (
     <main className="flex justify-between flex-col items-center  ">
-        <div className="relative w-full">
+        <div className=" w-full">
             <div className="absolute -z-10 w-full ">
-              <Image src="https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-pair-of-black-scissors-next-to-a-hair-image_2570258.jpg"alt="background" className='w-full  h-[30rem] lg:h-[36rem] ' width={1000} height={1000}/>
+              <Image src="https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-pair-of-black-scissors-next-to-a-hair-image_2570258.jpg"alt="background" className='w-full  h-[30rem] lg:h-[32rem] ' width={1000} height={1000}/>
             </div>
-           
-             <Main />
-           
+            {/*  "https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-pair-of-black-scissors-next-to-a-hair-image_2570258.jpg" */}
         </div>
+        <div className="">
+              <Main />
+             <ServiceHome/>
+       {/* for making background Image */}
+                  <div className="absolute -z-10 w-full ">
+                    <Image src="https://images.unsplash.com/photo-1520338661084-680395057c93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFpciUyMGN1dHRpbmd8ZW58MHx8MHx8fDA%3D"alt="background" className='w-full  h-[38rem] lg:h-[35rem] ' width={1000} height={100}/>
+                  </div>
+                  {/* "https://images.unsplash.com/photo-1520338661084-680395057c93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFpciUyMGN1dHRpbmd8ZW58MHx8MHx8fDA%3D" */}
+       {/* for making background Image */}
+             <PricingPlane/>
+             
+        </div>
+           
+       
     </main>
   );
 }

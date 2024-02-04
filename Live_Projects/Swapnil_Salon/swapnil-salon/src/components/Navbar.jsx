@@ -21,13 +21,13 @@ const Navbar = () => {
 
   return (
     <div className={`flex z-100 justify-around items-center w-full ${!colorChange? "bg-transparent":"bg-black" } text-white`}>
-          <div className="LOGO flex flex-col text-center bg-black m-3 md:m-1 py-1 px-3 shadow-sm  shadow-red-500  rounded-lg">
+          <div className="LOGO flex flex-col text-center  m-3 md:m-1 py-1 px-3 shadow-sm  shadow-red-100  rounded-lg">
             <Link href="/"> 
-             <h1 className=" font-bold gradientText1 tracking-wider ">The SWAPNIL</h1>
-             <p className="text-xs font-bold gradientText ">Hair Salon</p>
+             <h1 className=" font-bold gradientText1 tracking-wider ">SWAPNIL</h1>
+             <p className="text-xs font-bold  ">Hair Salon</p>
              </Link>
           </div>
-          <div className="LAPTOP hidden md:flex justify-between w-1/2 items-center ">
+          <div className="LAPTOP hidden md:flex justify-between w-1/2 items-center font-sans ">
              <Link className="link1" href="/">Home</Link>
              <Link className="link1" href="/salon/hairStyle">Hair Style</Link>
              <Link className="link1" href="/salon/about">About</Link>
@@ -35,11 +35,14 @@ const Navbar = () => {
           </div>
           <div className="MOBILE flex md:hidden">
            {!flage?(
-            <button className="w-16 p-2 rounded bg-red-500 hover:bg-red-400 " onClick={()=>setFlage(!flage)}>Menu</button>
+            <button className="w-10 p-2 rounded bg-red-500 hover:bg-red-400 " onClick={()=>setFlage(!flage)}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          </button>
            ):(
             <div  onClick={()=>setFlage(!flage)}>
-                 <button className="w-16 p-2 rounded bg-red-500 hover:bg-red-400" >Close</button>
-                 <div className=" flex flex-col gap-3 justify-around items-center w-32 absolute z-100 top-16 right-1 rounded-b-xl  p-5  bg-black   duration-700 ">
+                 <button className="w-10 p-2 rounded bg-red-500 hover:bg-red-400 " >X</button>
+                 <div className=" flex flex-col gap-4 justify-around items-center w-32 absolute z-100 top-16 right-2 rounded-b-xl  p-5 text-black bg-gray-300   duration-700 ">
                         <Link className="link" href="/">Home</Link>
                         <Link className="link" href="/salon/hairStyle">Hair Style</Link>
                         <Link className="link" href="/salon/about">About</Link>

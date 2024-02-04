@@ -4,7 +4,7 @@ import { GlobalContextProvider } from "./context/store";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["vietnamese"] });
 
 export const metadata = {
   title: "Swapnil Salon App",
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} m-0 p-0 box-border`} suppressHydrationWarning={true}>
+      <body className={`${inter.className}  m-0 p-0 box-border`} suppressHydrationWarning={true}>
         <GlobalContextProvider>
           <div className=" font-serif">
             <div className=" relative">
