@@ -32,7 +32,7 @@ const ControlPanel = () => {
        <h1 className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-14 m-2 rounded' > Control Panel </h1>
 
        
-       <label>Status</label>
+       <label className={`${status?"bg-green-500 hover:bg-green-400":"bg-red-500 hover:bg-red-400  "} p-2.5 rounded-xl text-white text-xs `}>{!status?"SHOP IS CLOSE": "SHOP IS OPEN"} </label>
        <select   onChange={(e)=>{setSelectTag(e.target.value)}} >
             <option  value="close">CLOSE</option>
             <option  value="open">OPEN</option>

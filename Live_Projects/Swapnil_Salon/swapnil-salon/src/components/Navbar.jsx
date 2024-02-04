@@ -48,7 +48,7 @@ const Navbar = () => {
                         <Link className="link" href="/">Home</Link>
                         <Link className="link" href="/salon/hairStyle">Hair Style</Link>
                         <Link className="link" href="/salon/about">About</Link>
-                        <Link className={`${status?"bg-green-500":"bg-red-500 "} text-white text-center duration-300 hover:bg-yellow-300 hover:font-medium  px-1 rounded hover:text-black w-24`} href="/salon/profile">Profile</Link>
+                        <Link className={`${status?"bg-green-500 hover:bg-green-300":"bg-red-500 hover:bg-red-300 "} text-white text-center duration-300  hover:font-medium  px-1 rounded hover:text-black w-24`} href="/salon/profile">Profile</Link>
                 </div>
             </div>
            )}

@@ -18,7 +18,7 @@ useEffect(()=>{
 
 
   return (
-    <main className="flex justify-between flex-col items-center  ">
+    <main className="flex justify-between flex-col items-center">
         <div className=" w-full">
             <div className="absolute -z-10 w-full ">
               <Image src="https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-pair-of-black-scissors-next-to-a-hair-image_2570258.jpg"alt="background" className='w-full  h-[28rem] lg:h-[32rem] ' width={900} height={1000}/>

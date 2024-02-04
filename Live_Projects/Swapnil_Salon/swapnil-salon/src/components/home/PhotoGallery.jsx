@@ -17,7 +17,7 @@ const PhotoGallery = () => {
         <h1 className='text-2xl gradientText1 font-semibold m-4 mt-5'> PHOTO GALLERY</h1>
         <div  className="flex flex-wrap gap-8 md:gap-14  ">
          {data.map((elm,i)=>
-           <Image key={i} className="w-36 m-auto md:w-52 h-64 rounded-xl" src={elm.image} width={100} height={100} alt={i}
+           <Image key={i} className="w-36 m-auto md:w-52 h-48 md:h-64 rounded-xl" src={elm.image} width={100} height={100} alt={i}
          />)}
         </div>
         <Link href="/salon/hairStyle">
