@@ -41,8 +41,8 @@ const ServiceHome = () => {
     
   ]
     return (
-      <div className="Service-Home flex flex-col justify-around items-center bg-slate-200 py-10 md:py-14">
-        <h1 className="text-2xl font-bold mb-2 text-slate-500 ">SERVICE WE PROVIDE</h1>
+      <div className="Service-Home flex flex-col justify-around items-center bg-slate-200 py-10 md:py-14 -mt-6 md:mt-0">
+        <h1 className="text-2xl font-bold mb-2 gradientText1 ">SERVICE WE PROVIDE</h1>
         <p className="text-gray-400 ">We are providing best services at best market cost</p>
         <div className="mt-5 grid grid-cols-2 md:grid-cols-3  md:gap-14">
           {data?.map((elm,i)=>
