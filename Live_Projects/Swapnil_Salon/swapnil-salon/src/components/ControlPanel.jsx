@@ -1,0 +1,49 @@
+"use client"
+
+import { useGlobalContext } from "@/app/context/store";
+import { useState } from "react";
+import { useRouter } from 'next/navigation'
+
+const ControlPanel = () => {
+    const Router=useRouter()
+
+    const {setFlag,status,setStatus} =useGlobalContext();
+    const [selectTag,setSelectTag]=useState("close")
+
+     const handleSubmit=(e)=>{
+        e.preventDefault()
+        if(selectTag === "open"){setStatus(true)}
+        else if(selectTag === "close"){setStatus(false)}
+
+        if(selectTag === "open" || selectTag === "close" ){Router.push("/")}
+     }
+    console.log(status)
+  return (
+    <div  className='flex justify-center items-center flex-col w-full text-center mt-10 '>
+
+        <button className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 py-1 px-5 m-2 rounded-xl cursor-pointer ... hover:text-black'
+        onClick={()=>{setFlag(false) ,Router.push("/")}}
+        >Logout</button>
+
+      <form onSubmit={handleSubmit}
+      className='text-center border my-10 w-80 flex justify-center items-center flex-col p-10 m-5 gap-3 bg-slate-300 rounded-2xl shadow-lg shadow-violet-400/100 ... ' 
+      >
+
+       <h1 className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-14 m-2 rounded' > Control Panel </h1>
+
+       
+       <label>Status</label>
+       <select   onChange={(e)=>{setSelectTag(e.target.value)}} >
+            <option  value="close">CLOSE</option>
+            <option  value="open">OPEN</option>
+       </select>
+       
+      
+
+       <input type="submit" className='text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 py-1 px-5 mt-10 rounded-xl cursor-pointer ... hover:text-black' />
+      </form>
+    </div>
+  )
+}
+
+export default ControlPanel

@@ -8,11 +8,14 @@ const GlobalContext =createContext();
 export const GlobalContextProvider=({children})=>{
 
     const[data,setData]=useState([]);
-    const[user,setUser]=useState("");
-    const[flage,setFlage]=useState(false);
+    const[user,setUser]=useState({ email:"", password:"",});
+    const[auth,setAuth]=useState(false);
+    const[status,setStatus]=useState(false);
+    const [flag,setFlag]=useState(false);
 
 
-    const obj={data,setData,user,setUser,flage,setFlage}
+
+    const obj={data,setData,user,setUser,flag,setFlag,auth,setAuth,status,setStatus}
 
 return(
     <GlobalContext.Provider value={obj} >{children}</GlobalContext.Provider>

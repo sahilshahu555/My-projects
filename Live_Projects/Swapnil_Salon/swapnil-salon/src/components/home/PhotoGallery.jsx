@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useGlobalContext } from "@/app/context/store";
 
 const PhotoGallery = () => {
+  const {status} =useGlobalContext();
 
     const data=[
         {image:"https://media.istockphoto.com/id/522305300/photo/everything-should-be-perfect.webp?b=1&s=170667a&w=0&k=20&c=41ewUhPgAcq898MHcDjzfaiRHBIc5vLcnIp7tlkx_IE="},
@@ -11,7 +13,7 @@ const PhotoGallery = () => {
     ]
     
   return (
-    <div className='PhotoGalllery-Home bg-slate-200  flex flex-col justify-between items-center gap-5 p-5'>
+    <div className='PhotoGalllery-Home bg-slate-200  flex flex-col justify-between     items-center gap-5 p-5'>
         <h1 className='text-2xl gradientText1 font-semibold m-4 mt-5'> PHOTO GALLERY</h1>
         <div  className="flex flex-wrap gap-8 md:gap-14  ">
          {data.map((elm,i)=>
@@ -19,7 +21,7 @@ const PhotoGallery = () => {
          />)}
         </div>
         <Link href="/salon/hairStyle">
-        <button className='bg-red-500 hover:bg-red-400 text-white p-2 rounded-xl'
+        <button className={`${status?"bg-green-500 hover:bg-green-400 ":"bg-red-500 hover:bg-red-400  "} text-white p-2 rounded-xl m-3`}
         >Explore Our Gallery</button>
         </Link>
       
