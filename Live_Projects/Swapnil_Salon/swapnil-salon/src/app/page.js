@@ -8,11 +8,23 @@ import PricingPlane from '@/components/home/PricingPlane';
 import PhotoGallery from '@/components/home/PhotoGallery';
 export default function Home() {
 
-  const {data,setData,user,setUser,flage,setFlage} =useGlobalContext();
+  const {status,setStatus} =useGlobalContext();
  
-useEffect(()=>{
-   
-},[])
+  const getStatus= async()=>{
+    const res = await fetch(`/api/salon`)
+
+        // Create data
+        const data = await res.json();
+         console.log(data.data.status)
+         const status1=data.data.status;
+        // Store data in status state through getStatus()
+        setStatus(status1);
+  }
+
+  useEffect(()=>{
+    getStatus()
+
+  },[setStatus])
 
 
 

@@ -10,7 +10,7 @@ export const GlobalContextProvider=({children})=>{
     const[data,setData]=useState([]);
     const[user,setUser]=useState({ email:"", password:"",});
     const[auth,setAuth]=useState(false);
-    const[status,setStatus]=useState(false);
+    const[status,setStatus]=useState();
     const [flag,setFlag]=useState(false);
 
 

@@ -53,7 +53,7 @@ const Navbar = () => {
             </div>
            )}
           </div>
-          <div className={` ${status?"bg-green-500":"bg-red-500 "} PROFILE hidden  lg:flex text-white font-semibold  rounded px-3 hover:bg-yellow-400 hover:text-black `}>
+          <div className={` ${status?"bg-green-500 hover:bg-green-400":"bg-red-500 hover:bg-red-400 "} PROFILE hidden  lg:flex text-white font-semibold  rounded px-3  hover:text-black `}>
             <Link href="/salon/profile">Profile</Link>
           </div>
     </div>

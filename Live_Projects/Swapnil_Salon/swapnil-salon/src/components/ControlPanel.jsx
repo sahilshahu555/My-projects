@@ -8,15 +8,69 @@ const ControlPanel = () => {
     const Router=useRouter()
 
     const {setFlag,status,setStatus} =useGlobalContext();
-    const [selectTag,setSelectTag]=useState("close")
+    const [selectTag,setSelectTag]=useState("")
+
+    
 
      const handleSubmit=(e)=>{
         e.preventDefault()
-        if(selectTag === "open"){setStatus(true)}
-        else if(selectTag === "close"){setStatus(false)}
-
-        if(selectTag === "open" || selectTag === "close" ){Router.push("/")}
+        
+        updateEmployee(selectTag,status);
+        Router.push("/")
      }
+
+
+ // Create Update Employee Function
+ const updateEmployee = async (selectTag,status) => {
+  if(selectTag === "open"){setStatus(true)}
+  else if(selectTag === "close"){setStatus(false)}
+ if(!status){
+  const res = await
+      fetch(`/api/salon`, {
+          method: 'PUT',
+          headers: {
+              "content-type": "application/json",
+          },
+          body: JSON.stringify({
+              status: true,
+             
+          })
+      })
+      // Create Data 
+  const data = await res.json();
+  console.log(data)
+    }else{
+      const res = await
+      fetch(`/api/salon`, {
+          method: 'PUT',
+          headers: {
+              "content-type": "application/json",
+          },
+          body: JSON.stringify({
+              status: false,
+             
+          })
+      })
+      // Create Data 
+  const data = await res.json();
+  console.log(data)
+    }
+  
+
+  // Destructure Data 
+  // const { message, error } = data;
+
+  // Condition
+  // if (error) {
+  //     alert(error) // Error Message
+  // }
+  // else {
+  //     alert(message) // Success Message
+  //     Router.push('/') // navigate (/employee/employeelist) route
+  // }
+}
+
+
     console.log(status)
   return (
     <div  className='flex justify-center items-center flex-col w-full text-center mt-10 '>
