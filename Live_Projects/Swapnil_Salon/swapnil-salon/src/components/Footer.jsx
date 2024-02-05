@@ -25,12 +25,13 @@ const Footer = () => {
           <div className="text-start text-white">
             <h1 className="text-center m-2">CONTACT US</h1>
             <p>Address : Khamla Square</p>
-            <p>Mobile  : 1234567890</p>
-            <p>Mon-Sat, 08am - 09 pm</p>
-            <p>Email : support@gmail.com</p>
+            <p>Mobile  : 9175334532</p>
+            <p>Timings:- 09 am - 4.30 pm</p>
+            
 
           </div>
-          <p className="w-full text-white text-sm ">All copy rights reserved by @ Swapnil Salon, 2024.</p>
+          <p className="w-full text-white text-sm ">All copy rights reserved by @ Swapnil Salon, 2024. </p>
+          <p className="text-white text-sm gradientText1 -my-5">This website is created by SAHIL SHAHU</p>
       </div>
     </div>
   )

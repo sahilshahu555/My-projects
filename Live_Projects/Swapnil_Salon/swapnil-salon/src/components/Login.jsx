@@ -22,7 +22,7 @@ const Login = () => {
         alert("Invalid Credentials")
         return;
       }
-      if(user.email=== "sahilshahu555@gmail.com" || user.password=== "123"){
+      if(user.email=== "swapnil@gmail.com" || user.password=== "swaunati"){
         alert("LOGIN Successful")
         setFlag(true)
       }
