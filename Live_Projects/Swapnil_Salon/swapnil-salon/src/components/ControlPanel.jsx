@@ -13,7 +13,11 @@ const ControlPanel = () => {
     
 
      const handleSubmit=(e)=>{
-        e.preventDefault()
+       e.preventDefault()
+      if(selectTag === ""){
+        alert("Please Select Option") 
+        return;
+      }
         
         updateEmployee(selectTag,status);
         Router.push("/")
@@ -88,6 +92,7 @@ const ControlPanel = () => {
        
        <label className={`${status?"bg-green-500 hover:bg-green-400":"bg-red-500 hover:bg-red-400  "} p-2.5 rounded-xl text-white text-xs `}>{!status?"SHOP IS CLOSE": "SHOP IS OPEN"} </label>
        <select   onChange={(e)=>{setSelectTag(e.target.value)}} >
+            <option  value="">Select</option>
             <option  value="close">CLOSE</option>
             <option  value="open">OPEN</option>
        </select>
