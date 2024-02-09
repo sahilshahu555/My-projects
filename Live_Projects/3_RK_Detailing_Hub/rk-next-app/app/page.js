@@ -6,7 +6,7 @@ export default function Home() {
    <div>
         
     <main>
-      <h1 className="text-tahiti">Hello Next.js!</h1>
+      
      
     </main>
    </div>

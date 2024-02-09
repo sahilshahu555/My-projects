@@ -1,66 +1,45 @@
+"use client"
 import Link from "next/link"
-
+import {useState} from "react"
 const Navbar = () => {
+    const[menu,setMenu] = useState(false)
   return (
-    <div>
-        <div className="TOPBAR flex justify-around items center p-2   border-b-2 border-cyan-400">
-            <div className="LOGO & NAME flex">
-           
-                <h1 className="text-3xl font-[900] " ><span className="font-sarif">RK </span> <span className="text-cyan-400"> Washing</span>Hub</h1>
-            </div>
-           
 
-            <div className="CLOCK flex items-center 
-            gap-4 ">
-                <div className="w-8 "> 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+        <div className="NAVBAR ">
+            <div className="LAPTOP-VIEW hidden lg:flex justify-around  items-center bg-cyan-400 text-white h-12">
+               
+                <div className="flex gap-10 ">
+                    <Link className="link" href="/">Home</Link>
+                    <Link className="link" href="/rk/gallery">Gallery</Link> 
+                    <Link className="link" href="/rk/service">Services</Link> 
+                    <Link className="link" href="/rk/about">About</Link>
+                    <Link className="link" href="/rk/contacts">Contacts</Link>
                 </div>
-           
-                <div className="phone">
-                    <h1 className="font-semibold"><span className="text-cyan-400">Opening</span> Hour</h1>
-                    <p className="text-xs text-gray-500 ">Mon - Fri, 8:00 - 9:00</p>
-                </div>
-
-
+                <Link className="link1 bg-white text-cyan-400 px-3 py-1 rounded-full" href="/rk/profile">Profile</Link>
 
             </div>
-            
-            <div className="CALL flex items-center 
-            gap-4 ">
-                <div className="w-8 "> 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm90.7 96.7c9.7-2.6 19.9 2.3 23.7 11.6l20 48c3.4 8.2 1 17.6-5.8 23.2L168 231.7c16.6 35.2 45.1 63.7 80.3 80.3l20.2-24.7c5.6-6.8 15-9.2 23.2-5.8l48 20c9.3 3.9 14.2 14 11.6 23.7l-12 44C336.9 378 329 384 320 384C196.3 384 96 283.7 96 160c0-9 6-16.9 14.7-19.3l44-12z"/>
-                </svg>
+            <div className="MOBILE-VIEW lg:hidden bg-cyan-400 text-white  ">
+                <div className="flex justify-around items-center p-2">
+                    <h1 className="font-semibold text-2xl">Menu</h1>
+                    <button className=" w-6" onClick={()=>{setMenu(!menu)}}>
+                        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                        </svg>
+                    </button>
                 </div>
-           
-                <div className="call">
-                    <h1 className="font-semibold"><span className="text-cyan-400">Call </span>Us</h1>
-                    <p className="text-xs text-gray-500 ">+012 345 6789</p>
-                </div>
-            </div>
 
-            <div className="EMAIL flex items-center 
-            gap-4 ">
-                <div className="w-8 "> 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                <div className={` ${menu?"grid grid-cols-3 gap-2  text-center p-3 font-semibold ":"hidden"}   `}>
+                    <Link className="link1" href="/">Home</Link>
+                    <Link className="link1" href="/rk/gallery">Gallery</Link> 
+                    <Link className="link1" href="/rk/service">Services</Link> 
+                    <Link className="link1" href="/rk/about">About</Link>
+                    <Link className="link1" href="/rk/contacts">Contacts</Link>
+                    <Link className="link1 bg-white hover:bg-cyan-400  text-cyan-400 w-20 m-auto py-1 rounded-full" href="/rk/profile">Profile</Link>
                 </div>
-           
-                <div className="email">
-                    <h1 className="font-semibold"><span className="text-cyan-400">Email </span> Us</h1>
-                    <p className="text-xs text-gray-500 ">info@example.com</p>
-                </div>
-            </div>
-
-        </div>
-        <div className="NAVBAR">
-            <div className="LAPTOP-VIEW hidden lg:flex">
-            <Link className="link1" href="/">Home</Link>
-            </div>
-            <div className="MOBILE-VIEW lg:hidden">
 
             </div>
         </div>
 
-    </div>
+    
   )
 }
 

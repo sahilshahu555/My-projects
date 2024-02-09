@@ -5,6 +5,7 @@ import "@/styles/flaticon/font/flaticon.css"
 import { GlobalContextProvider } from "./context/store";
 import Navbar from "@/components/Navbar";
 import Footer from './../components/Footer';
+import Topbar from "@/components/Topbar";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,7 +20,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`font-sans bg-slate-100`} suppressHydrationWarning={true}>
       <GlobalContextProvider>
+        <Topbar/>
+        <div className="sticky top-0 ...">
         <Navbar/>
+        </div>
+       
         {children}
         <Footer/>
        </GlobalContextProvider>

@@ -39,3 +39,7 @@ body {
   -webkit-text-fill-color: transparent;
   transition: .5s;
 }
+
+.link,.link1{
+  @apply hover:text-black
+}
