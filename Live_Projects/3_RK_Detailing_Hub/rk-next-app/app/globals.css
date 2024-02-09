@@ -43,3 +43,8 @@ body {
 .link,.link1{
   @apply hover:text-black
 }
+
+
+.background{ 
+  background: rgba(0, 0, 0, 0.3);
+}

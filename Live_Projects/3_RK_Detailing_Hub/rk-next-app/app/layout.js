@@ -20,13 +20,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`font-sans bg-slate-100`} suppressHydrationWarning={true}>
       <GlobalContextProvider>
-        <Topbar/>
-        <div className="sticky top-0 ...">
-        <Navbar/>
+        <div className="relative">
+          <Topbar/>
+          <div className="sticky top-0 ... z-50">
+          <Navbar/>
+          </div>
+        
+          {children}
+          <Footer/>
         </div>
-       
-        {children}
-        <Footer/>
        </GlobalContextProvider>
       </body>
     </html>
