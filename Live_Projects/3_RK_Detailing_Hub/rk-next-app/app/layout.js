@@ -1,6 +1,10 @@
 
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "@/styles/flaticon/font/flaticon.css"
+import { GlobalContextProvider } from "./context/store";
+import Navbar from "@/components/Navbar";
+import Footer from './../components/Footer';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -13,8 +17,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`} suppressHydrationWarning={true}>
+      <body className={`font-sans bg-slate-100`} suppressHydrationWarning={true}>
+      <GlobalContextProvider>
+        <Navbar/>
         {children}
+        <Footer/>
+       </GlobalContextProvider>
       </body>
     </html>
   );

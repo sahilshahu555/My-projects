@@ -23,3 +23,19 @@ body {
 }
 
 
+.service .service-item i {
+  color: #202C45;
+  font-size: 75px;
+  line-height: 75px;
+  margin-bottom: 20px;
+}
+
+.service-icon [class^="flaticon-"]::before {
+  margin: 0;
+  font-size: 60px;
+  line-height: 60px;
+  background-image: linear-gradient(#52b5ed, #202C45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .5s;
+}
