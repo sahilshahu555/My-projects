@@ -6,11 +6,11 @@ const Topbar = () => {
     <Link href="/">
             <div className="LOGO & NAME flex items-center">
             <img src="https://ik.imagekit.io/6128gd5ra/RK%20Deatailing%20Hub/Logo/rk-logo_qiou2b4jv?updatedAt=1707484104840"className="w-14" alt="photo"/>
-                <h1 className="text-3xl font-[900] " > <span className="text-cyan-400"> Washing</span>Hub</h1>
+                <h1 className="text-3xl font-[900] text-gray-500 " > <span className="text-cyan-400">Washing</span>Hub</h1>
             </div>
     </Link>
    
-    <div className="hidden md:flex gap-14 items-center">
+    <div className="hidden md:flex md:gap-5 lg:gap-14 items-center text-gray-500 ">
             <div className="CLOCK  flex items-center 
             gap-4 ">
                 <div className="w-8 "> 
@@ -18,8 +18,8 @@ const Topbar = () => {
                 </div>
         
                 <div className="phone">
-                    <h1 className="font-semibold"><span className="text-cyan-400">Opening</span> Hour</h1>
-                    <p className="text-xs text-gray-500 ">Mon - Fri, 8:00 - 9:00</p>
+                    <h1 className="font-semibold "><span className="text-cyan-400">Opening</span> Hour</h1>
+                    <p className="text-xs text-gray-500 ">Mon - Sun, 8:00 am - 9:00 pm</p>
                 </div>
 
 

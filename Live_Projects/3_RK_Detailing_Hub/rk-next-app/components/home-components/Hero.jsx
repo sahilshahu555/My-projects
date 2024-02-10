@@ -66,7 +66,7 @@ const Hero = () => {
   ]
 
   const settings = {
-    dots:true,
+    dots:false,
     infinite:true,
     slidesToShow:1,
     slidesToScroll: 1,
@@ -83,7 +83,7 @@ const Hero = () => {
           slidesToScroll: 1,
           initialSlide:1,
           infinite:true,
-          dots:true,
+          dots:false,
         }
       },
       {
