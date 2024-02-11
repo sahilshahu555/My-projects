@@ -21,7 +21,7 @@ const Testimonial = () => {
     },
     {
       name:"Shubham Baisware",
-      profession:"Softwear Engineer",
+      profession:"Software Engineer",
       image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t1.6435-1/202154167_3840237492768704_7364086951735089812_n.jpg?stp=dst-jpg_s160x160&_nc_cat=108&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=jm5W-nb423EAX_oxjAV&_nc_ht=scontent.fbom3-1.fna&oh=00_AfDq5u9_AB2VVwgDuCNixycjCLxXMcc-iOXRedyF1pXvbg&oe=65EF3965",
       desc:"Accha kam kiya Rakesh bhai. tum Mahan ho. Jiyo Raja"
     },
