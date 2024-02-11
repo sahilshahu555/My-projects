@@ -1,9 +1,11 @@
+"use client"
+
 import Image from 'next/image';
 import React from 'react'
 
 const About_home = () => {
   return (
-    <div className='mt-10 md:mt-16'>
+    <div className='mt-10 md:mt-16 'id='ABOUT'>
       <h1 className='text-cyan-400 text-center font-bold text-3xl'>About Us</h1>
       <div className='flex flex-col md:flex-row justify-around gap-3 md:gap-10 mt-2  md:mt-8 '>
         <div className='w-full md:w-1/2 rounded-none md:rounded-xl mt-3  md:mt-0 md:p-5'>

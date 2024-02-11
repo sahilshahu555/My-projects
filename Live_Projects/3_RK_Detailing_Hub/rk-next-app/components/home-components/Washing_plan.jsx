@@ -1,4 +1,4 @@
-
+"use client"
 
 const Washing_plan = () => {
  

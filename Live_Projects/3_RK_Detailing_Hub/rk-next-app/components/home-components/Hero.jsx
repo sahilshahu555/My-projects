@@ -108,7 +108,7 @@ const Hero = () => {
   };
 
   return (
-   <div className="">
+   <div className="" id='HERO'>
       <Slider {...settings}>
         {data.map((elm,i)=>(
           <HeroCard key={i} elm={elm}/>

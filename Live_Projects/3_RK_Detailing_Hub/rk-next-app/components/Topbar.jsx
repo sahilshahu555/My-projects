@@ -1,11 +1,12 @@
-
+"use client"
+import Image from "next/image"
 import Link from "next/link"
 const Topbar = () => {
   return (
     <div className="TOPBAR flex justify-around items center p-2   border-b-2 border-cyan-400">
     <Link href="/">
             <div className="LOGO & NAME flex items-center">
-            <img src="https://ik.imagekit.io/6128gd5ra/RK%20Deatailing%20Hub/Logo/rk-logo_qiou2b4jv?updatedAt=1707484104840"className="w-14" alt="photo"/>
+            <Image src="https://ik.imagekit.io/6128gd5ra/RK%20Deatailing%20Hub/Logo/rk-logo_qiou2b4jv?updatedAt=1707484104840"className="w-14" width={1000} height={1000} alt="photo"/>
                 <h1 className="text-3xl font-[900] text-gray-500 " > <span className="text-cyan-400">Washing</span>Hub</h1>
             </div>
     </Link>

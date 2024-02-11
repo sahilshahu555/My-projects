@@ -10,10 +10,10 @@ const Navbar = () => {
                
                 <div className="flex gap-10 ">
                     <Link className="link" href="/">Home</Link>
-                    <Link className="link" href="/rk/gallery">Gallery</Link> 
-                    <Link className="link" href="/rk/service">Services</Link> 
-                    <Link className="link" href="/rk/about">About</Link>
-                    <Link className="link" href="/rk/contacts">Contacts</Link>
+                    <Link className="link" href="/#SERVICE">Services</Link> 
+                    <Link className="link" href="/#ABOUT">About</Link>
+                    <Link className="link" href="/#FOOTER">Contacts</Link>
+                    <Link className="link" href="/#HERO">Gallery</Link> 
                 </div>
                 <Link className="link1 bg-white text-cyan-400 px-3 py-1 rounded-full" href="/rk/profile">Profile</Link>
 

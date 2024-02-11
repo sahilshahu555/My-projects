@@ -1,4 +1,4 @@
-
+"use client"
 
 const Service_home = () => {
 
@@ -46,7 +46,7 @@ const Service_home = () => {
   ]
 
   return (
-    <div className="m-2 md:m-10 mt-10  text-center  ">
+    <div className="m-2 md:m-10 mt-10  text-center  " id='SERVICE'>
       <p className='text-cyan-400 text-xl font-bold underline decoration-2 underline-offset-4 '>WHAT WE DO?</p>
       <h1 className='text-[2.1rem] md:text-[3.5rem] font-[800] leading-normal m-8 md:m-10 text-gray-500 '>Premium Washing Services</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 md:mt-14 m-4 gap-6 md:gap-10
