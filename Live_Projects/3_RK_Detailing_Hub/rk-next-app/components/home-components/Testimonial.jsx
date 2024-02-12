@@ -15,7 +15,7 @@ const Testimonial = () => {
     },
     {
       name:"Gaurav Katre",
-      profession:"Gym Trainner",
+      profession:"Gym Trainer",
       image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t1.6435-9/61797325_1366380346846676_9202965934266908672_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=be3454&_nc_ohc=0ITi6WZvCY4AX_GQpUw&_nc_ht=scontent.fbom3-1.fna&oh=00_AfAnxRZOWoTaaU9PRQz0ixtkz4svgDqXLU6UCjyXvRzvzw&oe=65EF29A2",
       desc:"Mere pass Car to nahi hai par dunkan dekh kar achha laga. Arre ye Rakesh to mera bhai hai yrr."
     },
@@ -103,7 +103,7 @@ const Testimonial = () => {
               <Image src={elm.image} width={1000} height={1000} className='w-32 h-32 rounded-full shadow-md shadow-cyan-400' alt=''/>
               <h1 className='text-2xl text-cyan-400'>{elm.name}</h1>
               <p className='text-sm text-black'>{elm.profession}</p>
-              {/* <p className='text-xs text-gray-600 p-2' >{elm.desc}</p> */}
+              <p className='text-xs text-gray-600 p-2' >{elm.desc}</p>
             </div>
 
           </div>
