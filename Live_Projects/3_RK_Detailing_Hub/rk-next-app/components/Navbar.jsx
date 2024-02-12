@@ -29,10 +29,10 @@ const Navbar = () => {
 
                 <div className={` ${menu?"grid grid-cols-3 gap-2  text-center p-3 font-semibold ":"hidden"}   `}>
                     <Link className="link1" href="/">Home</Link>
-                    <Link className="link1" href="/rk/gallery">Gallery</Link> 
-                    <Link className="link1" href="/rk/service">Services</Link> 
-                    <Link className="link1" href="/rk/about">About</Link>
-                    <Link className="link1" href="/rk/contacts">Contacts</Link>
+                    <Link className="link1" href="/#SERVICE">Services</Link> 
+                    <Link className="link1" href="/#ABOUT">About</Link>
+                    <Link className="link1" href="/#FOOTER">Contacts</Link>
+                    <Link className="link1" href="/#HERO">Gallery</Link> 
                     <Link className="link1 bg-white hover:bg-cyan-400  text-cyan-400 w-20 m-auto py-1 rounded-full" href="/rk/profile">Profile</Link>
                 </div>
 
