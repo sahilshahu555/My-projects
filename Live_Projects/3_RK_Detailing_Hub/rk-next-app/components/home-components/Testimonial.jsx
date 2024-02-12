@@ -11,37 +11,37 @@ const Testimonial = () => {
       name:"Sameer Engole",
       profession:"Shop Manager",
       image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t39.30808-6/405391317_2632298286933586_9184549173272040647_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=YpWYF0IDfzAAX_dswCT&_nc_ht=scontent.fbom3-1.fna&oh=00_AfC-W923VR0mvjh3boZ0o7pHl_aXeug2VC6yksefketQtg&oe=65CC64F1",
-      desc:"Bahot achha laga bhai meri car ko wash kr ke. Rakesh bhai tum bahot achhe ho. kal mera 50,000/- ka payment aane wala hai. chalo chai pi kar aate hai Mate Sqaure se"
+      desc:"“ Very dependable, never fails to give an excellent service. ”"
     },
     {
       name:"Gaurav Katre",
       profession:"Gym Trainer",
       image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t1.6435-9/61797325_1366380346846676_9202965934266908672_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=be3454&_nc_ohc=0ITi6WZvCY4AX_GQpUw&_nc_ht=scontent.fbom3-1.fna&oh=00_AfAnxRZOWoTaaU9PRQz0ixtkz4svgDqXLU6UCjyXvRzvzw&oe=65EF29A2",
-      desc:"Mere pass Car to nahi hai par dunkan dekh kar achha laga. Arre ye Rakesh to mera bhai hai yrr."
+      desc:"“ Friendly and helpful staff, reasonable rates, and always excellent service. Highly recommend! ”"
     },
     {
       name:"Shubham Baisware",
       profession:"Software Engineer",
       image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t1.6435-1/202154167_3840237492768704_7364086951735089812_n.jpg?stp=dst-jpg_s160x160&_nc_cat=108&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=jm5W-nb423EAX_oxjAV&_nc_ht=scontent.fbom3-1.fna&oh=00_AfDq5u9_AB2VVwgDuCNixycjCLxXMcc-iOXRedyF1pXvbg&oe=65EF3965",
-      desc:"Accha kam kiya Rakesh bhai. tum Mahan ho. Jiyo Raja"
+      desc:"“ Love this car wash! Everyone is super friendly and even offer to dry my truck after! Signed up for the months pass and not disappointed. ”"
     },
     {
       name:"Shubham Patle",
       profession:"Hotel Chef",
       image:"https://scontent.fbom3-2.fna.fbcdn.net/v/t39.30808-6/326340965_881166803035502_8451017387390332362_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=783fdb&_nc_ohc=JzpFiT4PCmgAX9BUhcF&_nc_ht=scontent.fbom3-2.fna&oh=00_AfBPM_4z3XpuNh8dOdD-alhODcvG4Vikznrwp2tGGi5llg&oe=65CDB3BB",
-      desc:"Kya Car wash kiya hai bhai, Maza AA gaya. mere hotel me aana Rakesh bhai nudels achha bana ta hu mai"
+      desc:"“ Brand new washing system. Completely different than what is current available in RI. Very competent and helpful staff. ”"
     },
     {
       name:"Saurabh Wadaskar",
       profession:"Event Manager",
       image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t39.30808-6/361631045_6434996293258335_7115808799625263356_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=78TJaB8_eCgAX8s88ti&_nc_ht=scontent.fbom3-1.fna&oh=00_AfA4f_FNgLIKSGU8Kbav8h1po1OsmPmhpxEiZ8y8jiw-AQ&oe=65CC9574",
-      desc:"Rakesh bhai tum achha kam krte ho, esa meko lagta hai "
+      desc:"“ Best car wash ever! Nicest people. Family Owned. And free vacuuming. My car feels and looks like new! ”"
     },
     {
       name:"Sahil Shahu",
       profession:"Web Developer",
       image:"https://scontent.fslv1-4.fna.fbcdn.net/v/t39.30808-6/288462350_4979899588799512_3170731793035400205_n.jpg?stp=dst-jpg_p843x403&_nc_cat=107&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=WHpSGuFxMwoAX_rk5FF&_nc_ht=scontent.fslv1-4.fna&oh=00_AfCv341E32m3GX3f6dlf_TY7gReXPnVj39ldeWEWf2h4Hg&oe=65CBDAA4",
-      desc:"Rakesh Bhai ka jalwa baki sab halwa. Rakesh bhai tum aage bado "
+      desc:"“ Service-orientated, family-owned. Best place to get your vehicle washed. ”"
     },
   ]
 
