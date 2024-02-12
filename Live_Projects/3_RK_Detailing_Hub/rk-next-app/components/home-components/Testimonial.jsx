@@ -103,7 +103,7 @@ const Testimonial = () => {
               <Image src={elm.image} width={1000} height={1000} className='w-32 h-32 rounded-full shadow-md shadow-cyan-400' alt=''/>
               <h1 className='text-2xl text-cyan-400'>{elm.name}</h1>
               <p className='text-sm text-black'>{elm.profession}</p>
-              {/* <p className='text-xs text-gray-600 p-2' >{elm.desc}</p> */}
+              <p className='text-xs text-gray-600 p-2' >{elm.desc}</p>
             </div>
 
           </div>
