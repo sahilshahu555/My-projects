@@ -6,8 +6,8 @@ const Topbar = () => {
     <div className="TOPBAR flex justify-around items center p-2   border-b-2 border-cyan-400">
     <Link href="/">
             <div className="LOGO & NAME flex items-center">
-            <Image src="https://ik.imagekit.io/6128gd5ra/RK%20Deatailing%20Hub/Logo/rk-logo_qiou2b4jv?updatedAt=1707484104840"className="w-14" width={1000} height={1000} alt="photo"/>
-                <h1 className="text-3xl font-[900] text-gray-500 " > <span className="text-cyan-400">Washing</span>Hub</h1>
+            <Image src="https://ik.imagekit.io/6128gd5ra/RK%20Deatailing%20Hub/Logo/386305611_709379921041686_2835241885272734875_n.jpg_stp=dst-jpg_s320x320&_nc_ht=instagram.fnag1-4.fna.fbcdn.net&_nc_cat=106&_nc_ohc=mC3hVOD9s9cAX8A1FD3&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAj3zNFo_we1h2InMxMsKCggf4V-NXQPe2h_FmarhVG-w&oe=65CF993F&_nc_sid=8b3546?updatedAt=1707816782899"className="w-10 mx-2 rounded-full" width={1000} height={1000} alt="photo"/>
+                <h1 className="text-3xl font-[900] text-gray-500 " > <span className="text-cyan-400">Detailing</span>Hub</h1>
             </div>
     </Link>
    
@@ -36,7 +36,7 @@ const Topbar = () => {
         
                 <div className="call">
                     <h1 className="font-semibold"><span className="text-cyan-400">Call </span>Us</h1>
-                    <p className="text-xs text-gray-500 ">+012 345 6789</p>
+                    <p className="text-xs text-gray-500 ">883 097 3328</p>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ const Topbar = () => {
         
                 <div className="email">
                     <h1 className="font-semibold"><span className="text-cyan-400">Email </span> Us</h1>
-                    <p className="text-xs text-gray-500 ">info@example.com</p>
+                    <p className="text-xs text-gray-500 ">rkdetailinghub@gmail.com</p>
                 </div>
             </div>
     </div>

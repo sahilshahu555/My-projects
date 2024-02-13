@@ -4,6 +4,36 @@ const Service_home = () => {
 
   const data=[
     {
+      icon:"flaticon-car-wash",
+      title:"Paint Restoration",
+      description:"It removes marring, scratches, protective, marks, high-performance polymer sealant.",
+    },
+    {
+      icon:"flaticon-car-service",
+      title:"Car Wrapping",
+      description:"A car wrap consists of several huge vinyl decals that are applied to every panel of your car",
+    },
+    {
+      icon:"flaticon-car-wash-1",
+      title:"Ceramic coating",
+      description:"Ceramic coating is a process that coats a car's surface with a solid ceramic material.",
+    },
+    {
+      icon:"flaticon-car-wash",
+      title:"Paint Protection Film",
+      description:"It is a Protection film that offers protection against scratches and chips. ",
+    },
+    {
+      icon:"flaticon-car-service",
+      title:"Headlight Cleaning",
+      description:"Let us give a chance to restore your car's headlights before you attempt costly replacement.",
+    },
+    {
+      icon:"flaticon-brush-1",
+      title:"wheel Cleaning",
+      description:"The best wheel cleaner can easily remove brake dust and road grime, leaving clean wheels that sparkle like new.",
+    },
+    {
       icon:"flaticon-car-wash-1",
       title:"Exterior Washing",
       description:"A car wash is a facility used to clean the exterior, and in some cases the interior of cars.",
@@ -25,30 +55,22 @@ const Service_home = () => {
     },
     {
       icon:"flaticon-car-service",
-      title:"Window Wiping",
-      description:"Provide professional car window wrapping services to enhance vehicle aesthetics with high-quality vinyl wraps.",
+      title:"Window Cleaning",
+      description:"Window cleaners usually contain surfactants that adhere to the glass surface and lift away dirt.",
     },
     {
       icon:"flaticon-car-service-2",
       title:"Wet Cleaning",
       description:"Deliver meticulous wet cleaning services for cars, ensuring a spotless and refreshed interior appearance.",
     },
-    {
-      icon:"flaticon-car-wash",
-      title:"Oil Changing",
-      description:"Offer efficient car oil changing services to ensure engine longevity and performance optimization.",
-    },
-    {
-      icon:"flaticon-brush-1",
-      title:"Brake Reparing",
-      description:"Provide expert car brake repair services for optimal vehicle safety  performance and satisfaction.",
-    },
+    
+
   ]
 
   return (
     <div className="m-2 md:m-10 mt-10  text-center  " id='SERVICE'>
       <p className='text-cyan-400 text-xl font-bold underline decoration-2 underline-offset-4 '>WHAT WE DO?</p>
-      <h1 className='text-[2.1rem] md:text-[3.5rem] font-[800] leading-normal m-8 md:m-10 text-gray-500 '>Premium Washing Services</h1>
+      <h1 className='text-[1.9rem] md:text-[3.5rem] font-[800] leading-normal m-8 md:m-10 text-gray-500 '>Premium Washing Services</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 md:mt-14 m-4 gap-6 md:gap-10
                 
       ">

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Points_wash = () => {
   return (
-    <div className="mt-10 md:mt-16 text-gray-500 rounded-xl shadow-md shadow-cyan-400 bg-white w-full md:w-3/5 m-auto pt-10">
+    <div className="mt-10 md:mt-16 text-gray-500 rounded-xl shadow-md shadow-cyan-400 bg-white w-full md:w-3/5 m-auto pt-10" id="POINT">
       <p className="text-cyan-400 text-xl font-bold  text-center">
         WASHING POINT
       </p>

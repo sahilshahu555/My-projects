@@ -7,12 +7,12 @@ import Image from 'next/image';
 
 const Testimonial = () => {
   const data=[
-    {
-      name:"Sameer Engole",
-      profession:"Shop Manager",
-      image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t39.30808-6/405391317_2632298286933586_9184549173272040647_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=YpWYF0IDfzAAX_dswCT&_nc_ht=scontent.fbom3-1.fna&oh=00_AfC-W923VR0mvjh3boZ0o7pHl_aXeug2VC6yksefketQtg&oe=65CC64F1",
-      desc:"“ Very dependable, never fails to give an excellent service. ”"
-    },
+    // {
+    //   name:"Sameer Engole",
+    //   profession:"Shop Manager",
+    //   image:"https://scontent.fbom3-1.fna.fbcdn.net/v/t39.30808-6/405391317_2632298286933586_9184549173272040647_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=YpWYF0IDfzAAX_dswCT&_nc_ht=scontent.fbom3-1.fna&oh=00_AfC-W923VR0mvjh3boZ0o7pHl_aXeug2VC6yksefketQtg&oe=65CC64F1",
+    //   desc:"“ Very dependable, never fails to give an excellent service. ”"
+    // },
     {
       name:"Gaurav Katre",
       profession:"Gym Trainer",

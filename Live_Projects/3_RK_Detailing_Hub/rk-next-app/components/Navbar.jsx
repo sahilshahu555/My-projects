@@ -15,7 +15,7 @@ const Navbar = () => {
                     <Link className="link" href="/#FOOTER">Contacts</Link>
                     <Link className="link" href="/#HERO">Gallery</Link> 
                 </div>
-                <Link className="link1 bg-white text-cyan-400 px-3 py-1 rounded-full" href="/rk/profile">Profile</Link>
+                {/* <Link className="link1 bg-white text-cyan-400 px-3 py-1 rounded-full" href="/rk/profile">Profile</Link> */}
 
             </div>
             <div className="MOBILE-VIEW lg:hidden bg-cyan-400 text-white  ">
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link className="link1" href="/#ABOUT">About</Link>
                     <Link className="link1" href="/#FOOTER">Contacts</Link>
                     <Link className="link1" href="/#HERO">Gallery</Link> 
-                    <Link className="link1 bg-white hover:bg-cyan-400  text-cyan-400 w-20 m-auto py-1 rounded-full" href="/rk/profile">Profile</Link>
+                    {/* <Link className="link1 bg-white hover:bg-cyan-400  text-cyan-400 w-20 m-auto py-1 rounded-full" href="/rk/profile">Profile</Link> */}
                 </div>
 
             </div>
