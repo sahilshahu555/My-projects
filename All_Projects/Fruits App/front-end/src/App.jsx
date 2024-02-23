@@ -13,7 +13,7 @@ function App() {
         <Navbar/>
         </div>
         </div>
-        <h1 className="text-center text-gray-500 font-bold text-xl bg-white w-60 m-auto py-1 px-2 rounded-tr-xl rounded-bl-xl mb-10"
+        <h1 className="text-center text-gray-500 font-bold text-xl bg-white w-60 m-auto py-1 px-2 rounded-tr-xl rounded-bl-xl my-10"
         > Mansuri Fresh Fruits</h1>
       
         <AllRoutes/>
