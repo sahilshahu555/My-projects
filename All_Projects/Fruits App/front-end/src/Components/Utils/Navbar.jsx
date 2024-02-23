@@ -62,7 +62,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={` ${ menu? "grid grid-cols-1 gap-2  text-center p-5 px-[5.5rem] font-semibold   bg-gradient-to-r from-red-300 to-orange-300 rounded-b-xl ": "hidden" } absolute -right-[4.5rem] top-5  w-[25rem] text-black`} >
+          className={` ${ menu? "grid grid-cols-1 gap-2  text-center p-5 px-[4.5rem] font-semibold   bg-gradient-to-r from-red-300 to-orange-300 rounded-b-xl ": "hidden" } absolute -right-[4.5rem] top-5  w-[25rem] text-black`} >
          
             <Link
               to={"/addfruit"}
