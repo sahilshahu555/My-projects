@@ -3,6 +3,7 @@ import "./globals.css";
 import { GlobalContextProvider } from "./context/store";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GoogleAdsense from "@/components/GoogleAdsense";
 
 const inter = Inter({ subsets: ["vietnamese"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           </div>
         </GlobalContextProvider>
       </body>
+      <GoogleAdsense/>
     </html>
   );
 }
